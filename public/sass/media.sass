@@ -1,0 +1,145 @@
+@media screen and (min-width: 320px) and (max-width: 767px)
+
+    nav
+        display: flex
+        flex-direction: column
+        align-items: center
+        .menu
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            width: 100%
+            p
+                width: 100%
+                text-align: center
+                padding: .5rem 0
+
+                
+    .headerImg
+        display: none
+    
+    .citation
+        p
+            width: 90%
+
+    // SECTION 2
+
+    .section-2
+        .cardContainer
+            width: 100%
+            display: flex
+            flex-direction: column
+            padding: 2rem 0
+            .card-1, .card-2, .card-3, .card-4
+                width: 100%
+                padding: 1rem 0
+                p
+                    padding: 1rem
+    // SECTION 3
+
+    .section-3
+        .containerWork
+            width: 100%
+            display: flex
+            flex-direction: column
+            align-items: center
+            gap: 3rem
+            .gauche
+                display: flex
+                flex-direction: column
+                align-items: center
+                p
+                    text-align: center
+            .droite
+                display: flex
+                flex-direction: column
+                .cardWork-1, .cardWork-2, .cardWork-3
+                    border-radius: 0rem
+                    padding-bottom: 1rem
+                    img
+                        width: 100%
+    // FOOTER
+    footer
+        .containerFtr
+            width: 90%
+            padding: 2rem 0
+
+@media screen and (min-width: 768px) and (max-width: 1023px) 
+    .citation
+        p
+            width: 90%
+
+    // SECTION 2
+
+    .section-2
+        .cardContainer
+            width: 100%
+            display: grid
+            grid-template-columns: repeat(2, 1fr)
+            padding: 2rem 0
+            .card-1, .card-2, .card-3, .card-4
+                width: 100%
+                padding: 1rem 0
+                p
+                    padding: 1rem
+  
+    footer
+        .containerFtr
+            width: 90%
+
+    .section-3
+        width: 100%
+        background-color: #efeff1
+        .containerWork
+            width: 80%
+            margin: auto
+            padding: 5rem 0
+            display: flex
+            flex-direction: column
+            align-items: center
+            gap: 2rem
+            .gauche
+                width: 90%
+                h3
+                    font-weight: 300
+                    font-size: 24px
+                p:first-of-type
+                    color: #b0a9aa
+                button
+                    border: none
+                    color: #fff
+                    padding: 1rem .5rem
+                    border-radius: .3rem
+            .droite
+                width: 100%
+                display: flex
+                gap: 1rem
+                justify-content: center
+                align-items: center
+                .cardWork-1, .cardWork-2, .cardWork-3
+                    background-color: #38485f
+                    text-align: center
+                    border-radius: .3rem
+                    img
+                        width: 100%
+                    h3
+                        color: #d1d3d8
+                        text-transform: uppercase
+                        font-weight: 400
+                    p
+                        color: #87969e
+                        font-size: 13px
+
+@media screen and (min-width: 1024px) and (max-width: 1439px)
+    .section-3
+        width: 100%
+        .containerWork
+            display: flex
+            flex-direction: column
+            align-items: center
+            gap: 3rem
+            img
+                width: 100%
+
+            

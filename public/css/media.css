@@ -1,0 +1,166 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  nav .menu p {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  .headerImg {
+    display: none;
+  }
+
+  .citation p {
+    width: 90%;
+  }
+
+  .section-2 .cardContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+  .section-2 .cardContainer .card-1, .section-2 .cardContainer .card-2, .section-2 .cardContainer .card-3, .section-2 .cardContainer .card-4 {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  .section-2 .cardContainer .card-1 p, .section-2 .cardContainer .card-2 p, .section-2 .cardContainer .card-3 p, .section-2 .cardContainer .card-4 p {
+    padding: 1rem;
+  }
+
+  .section-3 .containerWork {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .section-3 .containerWork .gauche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-3 .containerWork .gauche p {
+    text-align: center;
+  }
+  .section-3 .containerWork .droite {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-3 .containerWork .droite .cardWork-1, .section-3 .containerWork .droite .cardWork-2, .section-3 .containerWork .droite .cardWork-3 {
+    border-radius: 0rem;
+    padding-bottom: 1rem;
+  }
+  .section-3 .containerWork .droite .cardWork-1 img, .section-3 .containerWork .droite .cardWork-2 img, .section-3 .containerWork .droite .cardWork-3 img {
+    width: 100%;
+  }
+
+  footer .containerFtr {
+    width: 90%;
+    padding: 2rem 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .citation p {
+    width: 90%;
+  }
+
+  .section-2 .cardContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 0;
+  }
+  .section-2 .cardContainer .card-1, .section-2 .cardContainer .card-2, .section-2 .cardContainer .card-3, .section-2 .cardContainer .card-4 {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  .section-2 .cardContainer .card-1 p, .section-2 .cardContainer .card-2 p, .section-2 .cardContainer .card-3 p, .section-2 .cardContainer .card-4 p {
+    padding: 1rem;
+  }
+
+  footer .containerFtr {
+    width: 90%;
+  }
+
+  .section-3 {
+    width: 100%;
+    background-color: #efeff1;
+  }
+  .section-3 .containerWork {
+    width: 80%;
+    margin: auto;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .section-3 .containerWork .gauche {
+    width: 90%;
+  }
+  .section-3 .containerWork .gauche h3 {
+    font-weight: 300;
+    font-size: 24px;
+  }
+  .section-3 .containerWork .gauche p:first-of-type {
+    color: #b0a9aa;
+  }
+  .section-3 .containerWork .gauche button {
+    border: none;
+    color: #fff;
+    padding: 1rem 0.5rem;
+    border-radius: 0.3rem;
+  }
+  .section-3 .containerWork .droite {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-3 .containerWork .droite .cardWork-1, .section-3 .containerWork .droite .cardWork-2, .section-3 .containerWork .droite .cardWork-3 {
+    background-color: #38485f;
+    text-align: center;
+    border-radius: 0.3rem;
+  }
+  .section-3 .containerWork .droite .cardWork-1 img, .section-3 .containerWork .droite .cardWork-2 img, .section-3 .containerWork .droite .cardWork-3 img {
+    width: 100%;
+  }
+  .section-3 .containerWork .droite .cardWork-1 h3, .section-3 .containerWork .droite .cardWork-2 h3, .section-3 .containerWork .droite .cardWork-3 h3 {
+    color: #d1d3d8;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .section-3 .containerWork .droite .cardWork-1 p, .section-3 .containerWork .droite .cardWork-2 p, .section-3 .containerWork .droite .cardWork-3 p {
+    color: #87969e;
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .section-3 {
+    width: 100%;
+  }
+  .section-3 .containerWork {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .section-3 .containerWork img {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

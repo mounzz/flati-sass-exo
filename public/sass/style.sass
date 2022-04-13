@@ -1,9 +1,19 @@
 $azureBlue: #26a2cc
+$titleBrown: #5c5c5c
 
 body
+    width: 100%
     font-family: sans-serif
     margin: 0
     padding: 0
+
+
+mark
+    background-color: $azureBlue
+    color: #fff
+span
+    color: $azureBlue
+    font-weight: bold
 
 nav
     width: 100%
@@ -69,6 +79,118 @@ nav
             border-radius: .3rem
             padding: 1rem 
             width: 80%
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            .cardIcons
+                display: flex
+                align-items: center
+                justify-content: center
+                i
+                    background-color: #fff
+                    height: 30px
+                    width: 30px
+                    padding: 1rem
+                    border-radius: 50%
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    color: #3676bb
+                    font-size: 20px
+            h4
+                color: $titleBrown
+                text-transform: uppercase
+            .stitre
+                color: $azureBlue
+                margin-top: -1rem
+                font-size: 14px
+            p
+                color: #7e7e7e
+                text-align: center
+.section-3
+    width: 100%
+    background-color: #efeff1
+    .containerWork
+        width: 80%
+        margin: auto
+        padding: 5rem 0
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        .gauche
+            width: 90%
+            h3
+                color: $titleBrown
+                font-weight: 300
+                font-size: 24px
+            p:first-of-type
+                color: #b0a9aa
+            p
+                color: $titleBrown
+            button
+                background-color: $azureBlue
+                border: none
+                color: #fff
+                padding: 1rem .5rem
+                border-radius: .3rem
+
+        .droite
+            width: 100%
+            grid-column: 2
+            display: flex
+            gap: 1rem
+            justify-content: center
+            align-items: center
+            .cardWork-1, .cardWork-2, .cardWork-3
+                background-color: #38485f
+                text-align: center
+                border-radius: .3rem
+                h3
+                    color: #d1d3d8
+                    text-transform: uppercase
+                    font-weight: 400
+                p
+                    color: #87969e
+footer
+    background-color: #3676bb
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    .containerFtr
+        width: 50%
+        padding: 2rem
+        color: #fff
+        text-align: center
+        opacity: 60%
+        font-size: 14px
+        display: flex
+        flex-direction: column
+        gap: 2rem
+        h2
+            font-weight: 300
+            text-transform: uppercase
+            letter-spacing: .5rem
+        .iconsFtr
+            display: flex
+            gap: 2rem 
+            justify-content: center
+            i
+                font-size: 28px 
+                opacity: 50%
+    .copyright
+        background-color: #363b47
+        width: 100%
+        text-align: center
+        color: #6a6c72
+        padding: 1rem 0
+        
+
+
+
+                    
+
+            
 
 
 
